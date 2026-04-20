@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Issue</title>
+</head>
+<body>
+    <h1>Create Issue</h1>
+
+    <input id="summary" placeholder="Summary"><br>
+    <textarea id="description" placeholder="Decription"></textarea><br>
+    <input id="reporter" placeholder="Reporter"><br>
+
+    <select id="project">
+        <option value="Website">Website</option>
+        <option value="Mobile App">Mobile App</option>
+    </select><br>
+
+    <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select><br>
+
+    <input type="date" id="targetDate"><br>
+
+    <button onclick="handleCreate()">Create Issue</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
