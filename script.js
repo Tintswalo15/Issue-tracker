@@ -14,7 +14,6 @@ function handleCreate() {
         reporter: document.getElementById("reporter").value,
         dateCreated: new Date().toISOString().split("T")[0],
         project: document.getElementById("project").value,
-        //assignedTo: document.getElementById("assignedTo").value,
         status: "open",
         priority: document.getElementById("priority").value,
         targetDate: document.getElementById("targetDate").value,
